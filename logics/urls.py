@@ -19,7 +19,7 @@ from django.urls import path,include
 from . import views
 urlpatterns = [
     
-    path('scrap',views.GetScrapedData.as_view() ),
+    path('refresh',views.GetScrapedData.as_view() ),
     path('data',views.GetData.as_view() ),
 
 ]
